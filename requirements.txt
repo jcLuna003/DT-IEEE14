@@ -1,0 +1,20 @@
+# Bibliotecas necessárias para rodar o painel (app.py).
+# Instalação: pip install -r requirements.txt
+#
+# NOTA IMPORTANTE SOBRE REPRODUTIBILIDADE:
+# As versões abaixo não estão fixadas porque não há como confirmar, a partir daqui,
+# exatamente quais versões estão instaladas na máquina onde o projeto foi desenvolvido
+# e testado. Antes do envio final ao professor, rode o comando abaixo NA MÁQUINA onde
+# o painel foi validado, e substitua este arquivo pelo resultado — isso fixa a versão
+# exata de cada biblioteca, exigida para reprodutibilidade científica:
+#
+#   pip freeze > requirements.txt
+#
+# (o comando acima sobrescreve este arquivo com as versões exatas já instaladas)
+
+streamlit
+pandapower
+plotly
+pandas
+numpy
+networkx
